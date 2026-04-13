@@ -1,0 +1,17 @@
+{
+  "name": "snyk-security-agent",
+  "version": "1.0.0",
+  "description": "AI-powered Snyk security agent using GitHub Models GPT-4o",
+  "main": "src/agent/cli.js",
+  "scripts": {
+    "start": "node src/agent/cli.js",
+    "explain": "node src/agent/cli.js explain",
+    "fix": "node src/agent/cli.js fix",
+    "review": "node src/agent/cli.js review",
+    "ask": "node src/agent/cli.js ask",
+    "scan": "node src/agent/cli.js scan"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
